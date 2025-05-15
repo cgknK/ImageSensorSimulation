@@ -1,0 +1,28 @@
+[i] Tekrar 1 / 1
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o0.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o0_marchnative.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o1.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o1_marchnative.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o2.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o2_marchnative.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o3.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o3_marchnative.exe 
+----------------------------------------
+
+[*] Çalıştırılıyor: .\flat-data_vs_nested_7_o3_marchnative_info.exe 
+----------------------------------------
+

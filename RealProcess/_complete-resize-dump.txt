@@ -1,0 +1,250 @@
+def calculate_resized_image(image_data, width:3, height:3, target_width:5, target_height:5):
+x_ratio:0.6 = width:3 / target_width:5
+y_ratio:0.6 = height:3 / target_height:5
+    x_start:0 = int(j:0 * x_ratio:0.6)
+    y_start:0 = int(i:0 * y_ratio:0.6)
+    x_end:0 = int((j+1):1 * x_ratio:0.6)
+    y_end:0 = int((i+1):1 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 0
+    x_start:0 = int(j:1 * x_ratio:0.6)
+    y_start:0 = int(i:1 * y_ratio:0.6)
+    x_end:1 = int((j+1):2 * x_ratio:0.6)
+    y_end:0 = int((i+1):1 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 1
+    x_start:1 = int(j:2 * x_ratio:0.6)
+    y_start:0 = int(i:2 * y_ratio:0.6)
+    x_end:1 = int((j+1):3 * x_ratio:0.6)
+    y_end:0 = int((i+1):1 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 2
+    x_start:1 = int(j:3 * x_ratio:0.6)
+    y_start:0 = int(i:3 * y_ratio:0.6)
+    x_end:2 = int((j+1):4 * x_ratio:0.6)
+    y_end:0 = int((i+1):1 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 3
+    x_start:2 = int(j:4 * x_ratio:0.6)
+    y_start:0 = int(i:4 * y_ratio:0.6)
+    x_end:3 = int((j+1):5 * x_ratio:0.6)
+    y_end:0 = int((i+1):1 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 4
+    x_start:0 = int(j:0 * x_ratio:0.6)
+    y_start:0 = int(i:0 * y_ratio:0.6)
+    x_end:0 = int((j+1):1 * x_ratio:0.6)
+    y_end:1 = int((i+1):2 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 5
+    x_start:0 = int(j:1 * x_ratio:0.6)
+    y_start:0 = int(i:1 * y_ratio:0.6)
+    x_end:1 = int((j+1):2 * x_ratio:0.6)
+    y_end:1 = int((i+1):2 * y_ratio:0.6)
+        idx:0 = y:0*width:3 + x:0 - x:0, y:0, j:1, i:1
+count:1
+ -> new_data[-1:]:[(255, 231, 211)], 6
+    x_start:1 = int(j:2 * x_ratio:0.6)
+    y_start:0 = int(i:2 * y_ratio:0.6)
+    x_end:1 = int((j+1):3 * x_ratio:0.6)
+    y_end:1 = int((i+1):2 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 7
+    x_start:1 = int(j:3 * x_ratio:0.6)
+    y_start:0 = int(i:3 * y_ratio:0.6)
+    x_end:2 = int((j+1):4 * x_ratio:0.6)
+    y_end:1 = int((i+1):2 * y_ratio:0.6)
+        idx:1 = y:0*width:3 + x:1 - x:1, y:0, j:3, i:1
+count:1
+ -> new_data[-1:]:[(231, 196, 176)], 8
+    x_start:2 = int(j:4 * x_ratio:0.6)
+    y_start:0 = int(i:4 * y_ratio:0.6)
+    x_end:3 = int((j+1):5 * x_ratio:0.6)
+    y_end:1 = int((i+1):2 * y_ratio:0.6)
+        idx:2 = y:0*width:3 + x:2 - x:2, y:0, j:4, i:1
+count:1
+ -> new_data[-1:]:[(222, 187, 167)], 9
+    x_start:0 = int(j:0 * x_ratio:0.6)
+    y_start:1 = int(i:0 * y_ratio:0.6)
+    x_end:0 = int((j+1):1 * x_ratio:0.6)
+    y_end:1 = int((i+1):3 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 10
+    x_start:0 = int(j:1 * x_ratio:0.6)
+    y_start:1 = int(i:1 * y_ratio:0.6)
+    x_end:1 = int((j+1):2 * x_ratio:0.6)
+    y_end:1 = int((i+1):3 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 11
+    x_start:1 = int(j:2 * x_ratio:0.6)
+    y_start:1 = int(i:2 * y_ratio:0.6)
+    x_end:1 = int((j+1):3 * x_ratio:0.6)
+    y_end:1 = int((i+1):3 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 12
+    x_start:1 = int(j:3 * x_ratio:0.6)
+    y_start:1 = int(i:3 * y_ratio:0.6)
+    x_end:2 = int((j+1):4 * x_ratio:0.6)
+    y_end:1 = int((i+1):3 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 13
+    x_start:2 = int(j:4 * x_ratio:0.6)
+    y_start:1 = int(i:4 * y_ratio:0.6)
+    x_end:3 = int((j+1):5 * x_ratio:0.6)
+    y_end:1 = int((i+1):3 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 14
+    x_start:0 = int(j:0 * x_ratio:0.6)
+    y_start:1 = int(i:0 * y_ratio:0.6)
+    x_end:0 = int((j+1):1 * x_ratio:0.6)
+    y_end:2 = int((i+1):4 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 15
+    x_start:0 = int(j:1 * x_ratio:0.6)
+    y_start:1 = int(i:1 * y_ratio:0.6)
+    x_end:1 = int((j+1):2 * x_ratio:0.6)
+    y_end:2 = int((i+1):4 * y_ratio:0.6)
+        idx:3 = y:1*width:3 + x:0 - x:0, y:1, j:1, i:3
+count:1
+ -> new_data[-1:]:[(201, 166, 146)], 16
+    x_start:1 = int(j:2 * x_ratio:0.6)
+    y_start:1 = int(i:2 * y_ratio:0.6)
+    x_end:1 = int((j+1):3 * x_ratio:0.6)
+    y_end:2 = int((i+1):4 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 17
+    x_start:1 = int(j:3 * x_ratio:0.6)
+    y_start:1 = int(i:3 * y_ratio:0.6)
+    x_end:2 = int((j+1):4 * x_ratio:0.6)
+    y_end:2 = int((i+1):4 * y_ratio:0.6)
+        idx:4 = y:1*width:3 + x:1 - x:1, y:1, j:3, i:3
+count:1
+ -> new_data[-1:]:[(172, 137, 117)], 18
+    x_start:2 = int(j:4 * x_ratio:0.6)
+    y_start:1 = int(i:4 * y_ratio:0.6)
+    x_end:3 = int((j+1):5 * x_ratio:0.6)
+    y_end:2 = int((i+1):4 * y_ratio:0.6)
+        idx:5 = y:1*width:3 + x:2 - x:2, y:1, j:4, i:3
+count:1
+ -> new_data[-1:]:[(173, 138, 118)], 19
+    x_start:0 = int(j:0 * x_ratio:0.6)
+    y_start:2 = int(i:0 * y_ratio:0.6)
+    x_end:0 = int((j+1):1 * x_ratio:0.6)
+    y_end:3 = int((i+1):5 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 20
+    x_start:0 = int(j:1 * x_ratio:0.6)
+    y_start:2 = int(i:1 * y_ratio:0.6)
+    x_end:1 = int((j+1):2 * x_ratio:0.6)
+    y_end:3 = int((i+1):5 * y_ratio:0.6)
+        idx:6 = y:2*width:3 + x:0 - x:0, y:2, j:1, i:4
+count:1
+ -> new_data[-1:]:[(144, 109, 89)], 21
+    x_start:1 = int(j:2 * x_ratio:0.6)
+    y_start:2 = int(i:2 * y_ratio:0.6)
+    x_end:1 = int((j+1):3 * x_ratio:0.6)
+    y_end:3 = int((i+1):5 * y_ratio:0.6)
+count:0
+new_data.apppend((0, 0, 0)) -> new_data[-1:]:[(0, 0, 0)], 22
+    x_start:1 = int(j:3 * x_ratio:0.6)
+    y_start:2 = int(i:3 * y_ratio:0.6)
+    x_end:2 = int((j+1):4 * x_ratio:0.6)
+    y_end:3 = int((i+1):5 * y_ratio:0.6)
+        idx:7 = y:2*width:3 + x:1 - x:1, y:2, j:3, i:4
+count:1
+ -> new_data[-1:]:[(124, 89, 69)], 23
+    x_start:2 = int(j:4 * x_ratio:0.6)
+    y_start:2 = int(i:4 * y_ratio:0.6)
+    x_end:3 = int((j+1):5 * x_ratio:0.6)
+    y_end:3 = int((i+1):5 * y_ratio:0.6)
+        idx:8 = y:2*width:3 + x:2 - x:2, y:2, j:4, i:4
+count:1
+ -> new_data[-1:]:[(136, 101, 81)], 24
+len(new_data):25
+
+NEXT
+
+def calculate_resized_image(image_data, width:5, height:5, target_width:3, target_height:3):
+x_ratio:1.6666666666666667 = width:5 / target_width:3
+y_ratio:1.6666666666666667 = height:5 / target_height:3
+    x_start:0 = int(j:0 * x_ratio:1.6666666666666667)
+    y_start:0 = int(i:0 * y_ratio:1.6666666666666667)
+    x_end:1 = int((j+1):1 * x_ratio:1.6666666666666667)
+    y_end:1 = int((i+1):1 * y_ratio:1.6666666666666667)
+        idx:0 = y:0*width:5 + x:0 - x:0, y:0, j:0, i:0
+count:1
+ -> new_data[-1:]:[(15, 7, 5)], 0
+    x_start:1 = int(j:1 * x_ratio:1.6666666666666667)
+    y_start:0 = int(i:1 * y_ratio:1.6666666666666667)
+    x_end:3 = int((j+1):2 * x_ratio:1.6666666666666667)
+    y_end:1 = int((i+1):1 * y_ratio:1.6666666666666667)
+        idx:1 = y:0*width:5 + x:1 - x:1, y:0, j:1, i:0
+        idx:2 = y:0*width:5 + x:2 - x:2, y:0, j:1, i:0
+count:2
+ -> new_data[-1:]:[(8, 0, 0)], 1
+    x_start:3 = int(j:2 * x_ratio:1.6666666666666667)
+    y_start:0 = int(i:2 * y_ratio:1.6666666666666667)
+    x_end:5 = int((j+1):3 * x_ratio:1.6666666666666667)
+    y_end:1 = int((i+1):1 * y_ratio:1.6666666666666667)
+        idx:3 = y:0*width:5 + x:3 - x:3, y:0, j:2, i:0
+        idx:4 = y:0*width:5 + x:4 - x:4, y:0, j:2, i:0
+count:2
+ -> new_data[-1:]:[(16, 4, 1)], 2
+    x_start:0 = int(j:0 * x_ratio:1.6666666666666667)
+    y_start:1 = int(i:0 * y_ratio:1.6666666666666667)
+    x_end:1 = int((j+1):1 * x_ratio:1.6666666666666667)
+    y_end:3 = int((i+1):2 * y_ratio:1.6666666666666667)
+        idx:5 = y:1*width:5 + x:0 - x:0, y:1, j:0, i:1
+        idx:10 = y:2*width:5 + x:0 - x:0, y:2, j:0, i:1
+count:2
+ -> new_data[-1:]:[(14, 5, 4)], 3
+    x_start:1 = int(j:1 * x_ratio:1.6666666666666667)
+    y_start:1 = int(i:1 * y_ratio:1.6666666666666667)
+    x_end:3 = int((j+1):2 * x_ratio:1.6666666666666667)
+    y_end:3 = int((i+1):2 * y_ratio:1.6666666666666667)
+        idx:6 = y:1*width:5 + x:1 - x:1, y:1, j:1, i:1
+        idx:7 = y:1*width:5 + x:2 - x:2, y:1, j:1, i:1
+        idx:11 = y:2*width:5 + x:1 - x:1, y:2, j:1, i:1
+        idx:12 = y:2*width:5 + x:2 - x:2, y:2, j:1, i:1
+count:4
+ -> new_data[-1:]:[(66, 56, 53)], 4
+    x_start:3 = int(j:2 * x_ratio:1.6666666666666667)
+    y_start:1 = int(i:2 * y_ratio:1.6666666666666667)
+    x_end:5 = int((j+1):3 * x_ratio:1.6666666666666667)
+    y_end:3 = int((i+1):2 * y_ratio:1.6666666666666667)
+        idx:8 = y:1*width:5 + x:3 - x:3, y:1, j:2, i:1
+        idx:9 = y:1*width:5 + x:4 - x:4, y:1, j:2, i:1
+        idx:13 = y:2*width:5 + x:3 - x:3, y:2, j:2, i:1
+        idx:14 = y:2*width:5 + x:4 - x:4, y:2, j:2, i:1
+count:4
+ -> new_data[-1:]:[(112, 97, 94)], 5
+    x_start:0 = int(j:0 * x_ratio:1.6666666666666667)
+    y_start:3 = int(i:0 * y_ratio:1.6666666666666667)
+    x_end:1 = int((j+1):1 * x_ratio:1.6666666666666667)
+    y_end:5 = int((i+1):3 * y_ratio:1.6666666666666667)
+        idx:15 = y:3*width:5 + x:0 - x:0, y:3, j:0, i:2
+        idx:20 = y:4*width:5 + x:0 - x:0, y:4, j:0, i:2
+count:2
+ -> new_data[-1:]:[(13, 1, 0)], 6
+    x_start:1 = int(j:1 * x_ratio:1.6666666666666667)
+    y_start:3 = int(i:1 * y_ratio:1.6666666666666667)
+    x_end:3 = int((j+1):2 * x_ratio:1.6666666666666667)
+    y_end:5 = int((i+1):3 * y_ratio:1.6666666666666667)
+        idx:16 = y:3*width:5 + x:1 - x:1, y:3, j:1, i:2
+        idx:17 = y:3*width:5 + x:2 - x:2, y:3, j:1, i:2
+        idx:21 = y:4*width:5 + x:1 - x:1, y:4, j:1, i:2
+        idx:22 = y:4*width:5 + x:2 - x:2, y:4, j:1, i:2
+count:4
+ -> new_data[-1:]:[(89, 74, 70)], 7
+    x_start:3 = int(j:2 * x_ratio:1.6666666666666667)
+    y_start:3 = int(i:2 * y_ratio:1.6666666666666667)
+    x_end:5 = int((j+1):3 * x_ratio:1.6666666666666667)
+    y_end:5 = int((i+1):3 * y_ratio:1.6666666666666667)
+        idx:18 = y:3*width:5 + x:3 - x:3, y:3, j:2, i:2
+        idx:19 = y:3*width:5 + x:4 - x:4, y:3, j:2, i:2
+        idx:23 = y:4*width:5 + x:3 - x:3, y:4, j:2, i:2
+        idx:24 = y:4*width:5 + x:4 - x:4, y:4, j:2, i:2
+count:4
+ -> new_data[-1:]:[(142, 123, 114)], 8
+len(new_data):9
+[Finished in 296ms]
